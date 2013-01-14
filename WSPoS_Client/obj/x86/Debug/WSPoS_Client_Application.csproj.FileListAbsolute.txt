@@ -1,1 +1,1 @@
-d:\visual studio 2010\Projects\WSPoS_Client\WSPoS_Client\bin\Debug\WSPoS_Client.exe.config
+D:\visual studio 2010\Projects\wspos-client\WSPoS_Client\bin\Debug\WSPoS_Client.exe.config
