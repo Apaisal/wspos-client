@@ -1,0 +1,10 @@
+d:\visual studio 2010\Projects\WSPoS_Client\WSPoS_Client\bin\Debug\WSPoS_Client.exe
+d:\visual studio 2010\Projects\WSPoS_Client\WSPoS_Client\bin\Debug\WSPoS_Client.pdb
+d:\visual studio 2010\Projects\WSPoS_Client\WSPoS_Client\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\visual studio 2010\Projects\WSPoS_Client\WSPoS_Client\obj\x86\Debug\WSPoS_Client.Properties.Resources.resources
+d:\visual studio 2010\Projects\WSPoS_Client\WSPoS_Client\obj\x86\Debug\WSPoS_Client.WSPoS_Client.resources
+d:\visual studio 2010\Projects\WSPoS_Client\WSPoS_Client\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\visual studio 2010\Projects\WSPoS_Client\WSPoS_Client\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\visual studio 2010\Projects\WSPoS_Client\WSPoS_Client\obj\x86\Debug\WSPoS_Client.exe
+d:\visual studio 2010\Projects\WSPoS_Client\WSPoS_Client\obj\x86\Debug\WSPoS_Client.pdb
+d:\visual studio 2010\Projects\WSPoS_Client\WSPoS_Client\bin\Debug\WSPoS_Client.exe.config
