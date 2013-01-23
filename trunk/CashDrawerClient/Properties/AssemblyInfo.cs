@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WSPOS_Client")]
+[assembly: AssemblyTitle("CashDrawerClient")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WSPOS_Client")]
+[assembly: AssemblyProduct("CashDrawerClient")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a39e5c3f-411a-413d-bcb2-a70a9ba5c969")]
+[assembly: Guid("2dfc6dab-f91d-4113-addf-f39ee1329b78")]
 
 // Version information for an assembly consists of the following four values:
 //

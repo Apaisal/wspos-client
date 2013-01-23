@@ -6,21 +6,22 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using WSPOS.Client;
 
-namespace WSPoS_Client
+namespace WSPOS.Client
 {
     
-    public partial class WSPoS_Client : Form
+    public partial class WSPOS_Client : Form
     {
         private Manager manager;
         private delegate void WriteMessage(string message);
 
-        public WSPoS_Client()
+        public WSPOS_Client()
         {
             InitializeComponent();
 
             manager = new Manager();
-            manager.WrittenLog += new System.Diagnostics.EntryWrittenEventHandler(manager_WrittenLog);
+            
         }
 
         public void manager_WrittenLog(object sender, System.Diagnostics.EntryWrittenEventArgs e)
@@ -33,10 +34,9 @@ namespace WSPoS_Client
         {
             try
             {
-                if (manager.ManagerStatus == Status.OK)
-                {
+                
                     manager.Pause();
-                }
+               
                 
             }
             catch (Exception ex)
@@ -50,10 +50,9 @@ namespace WSPoS_Client
         {
             try
             {
-                if (manager.ManagerStatus == Status.Close)
-                {
+                
                     manager.Start();    
-                }
+                
             }
             catch (Exception ex)
             {
@@ -66,10 +65,9 @@ namespace WSPoS_Client
         {
             try
             {
-                if (manager.ManagerStatus == Status.OK)
-                {
+                
                     manager.Stop();    
-                }
+                
                 
             }
             catch (Exception ex)

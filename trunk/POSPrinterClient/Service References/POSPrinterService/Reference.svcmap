@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c6d299fd-e37b-488d-9654-a639783c46f5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/POSPrinter" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="POSPrinterService.wsdl" MetadataType="Wsdl" ID="d8de9263-bdcc-4a2f-9eb8-44b82e629552" SourceId="1" SourceUrl="http://localhost:8000/POSPrinter?wsdl" />
+    <MetadataFile FileName="POSPrinter.xsd" MetadataType="Schema" ID="b3bff5ff-2d67-4490-b176-8075cc67fd79" SourceId="1" SourceUrl="http://localhost:8000/POSPrinter?xsd=xsd1" />
+    <MetadataFile FileName="POSPrinter1.xsd" MetadataType="Schema" ID="903cd5f1-fba8-440a-ac13-a17959391a6a" SourceId="1" SourceUrl="http://localhost:8000/POSPrinter?xsd=xsd0" />
+    <MetadataFile FileName="POSPrinter.disco" MetadataType="Disco" ID="19a42df0-1f44-4ecd-a52a-92a14bf104f6" SourceId="1" SourceUrl="http://localhost:8000/POSPrinter?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

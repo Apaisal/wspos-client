@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WSPOS_Client")]
+[assembly: AssemblyTitle("DriverConnector")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WSPOS_Client")]
+[assembly: AssemblyProduct("DriverConnector")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a39e5c3f-411a-413d-bcb2-a70a9ba5c969")]
+[assembly: Guid("1a198ec2-4448-4eb8-ae40-cbeba4274288")]
 
 // Version information for an assembly consists of the following four values:
 //
