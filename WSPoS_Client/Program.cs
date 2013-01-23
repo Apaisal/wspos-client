@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace WSPoS_Client
+namespace WSPOS.Client
 {
     static class Program
     {
@@ -15,7 +15,7 @@ namespace WSPoS_Client
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new WSPoS_Client());
+            Application.Run(new WSPOS_Client());
         }
     }
 }

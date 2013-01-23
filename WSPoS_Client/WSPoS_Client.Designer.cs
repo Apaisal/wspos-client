@@ -1,6 +1,6 @@
-﻿namespace WSPoS_Client
+﻿namespace WSPOS.Client
 {
-    partial class WSPoS_Client
+    partial class WSPOS_Client
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WSPoS_Client));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WSPOS_Client));
             this.btnStart = new System.Windows.Forms.Button();
             this.btnStop = new System.Windows.Forms.Button();
             this.btnPause = new System.Windows.Forms.Button();
@@ -62,7 +62,7 @@
             this.txtLog.Name = "txtLog";
             this.txtLog.ReadOnly = true;
             // 
-            // WSPoS_Client
+            // WSPOS_Client
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -70,7 +70,7 @@
             this.Controls.Add(this.btnStop);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.btnPause);
-            this.Name = "WSPoS_Client";
+            this.Name = "WSPOS_Client";
             this.ResumeLayout(false);
             this.PerformLayout();
 
